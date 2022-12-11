@@ -16,7 +16,7 @@ void PrintArray(int[] array)
 {
     for (int i = 0; i < array.Length; i++)
     {
-        Console.WriteLine($"{array[i]}\t");
+        Console.Write($"{array[i]}\t");
     }
 }
 
@@ -41,7 +41,8 @@ void ChangeNummbers(int[] array)
 int length = 5;
 int minRange = -100;
 int maxRange = 800;
-
+Console.WriteLine("Generated array ");
 int[] arr = GenerateArray(length, minRange, maxRange);
 PrintArray(arr);
+Console.WriteLine("Made array ");
 ChangeNummbers(arr);
