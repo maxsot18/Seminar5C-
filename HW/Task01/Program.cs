@@ -39,7 +39,7 @@ for (int i = 0; i < array.Length; i++)
     // int quant = 0;
     if (array[i] % 2 == 0)
     {
-        quant = quant + 1;
+        quant++;
 
         
     }
